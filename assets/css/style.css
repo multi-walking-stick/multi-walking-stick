@@ -116,6 +116,12 @@ ul.social-icons li a:hover{
 	width: 50%;
 	margin: 0 auto 100px;
 	text-align: center;
+
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column
+
 }
 .section-title span{
 	position: relative;
@@ -1200,4 +1206,16 @@ footer.main-footer nav.footer-nav ul li a{
 	-webkit-transform:translateX(-10px);
 	    -ms-transform:translateX(-10px);
 	        transform:translateX(-10px);
+}
+
+.price-row{
+	/* display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row; */
+	
+}
+
+.pricing_plan{
+	background-color: #f2f5fa;
 }
